@@ -25,10 +25,13 @@
 if __name__ == '__main__':
     n = int(raw_input())
     arr = map(int, raw_input().strip().split())
-    x = max(arr)
-    while max(arr) == x:
-        arr.remove(max(arr))
-    print max(arr)
+    arr = max(arr)
+    i=n-2
+    s=arr[i]
+    while arr[i]==arr[n-1]:
+        i-=1
+        s=arr[i]
+    print (s)
     
     
     
