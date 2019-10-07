@@ -26,5 +26,8 @@
 # Explanation 0
 
 # The input read by the program is stored as a string data type. A string is a collection of characters.
-def print_full_name(a, b):
-    print (("Hello %s %s! You just delved into python.") % (first_name, last_name))
+#def print_full_name(a, b):
+  #  print (("Hello %s %s! You just delved into python.") % (first_name, last_name))
+ 
+int print_full_name(a, b)
+cout << "Hello " << a << " " << b << "! You just delved into python." % (first_name, last_name))
