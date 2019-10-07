@@ -25,5 +25,5 @@ if __name__ == '__main__':
     n = int(raw_input())
     count = 1
     while (count <= n):
-        print(count,sep='',end='')
+        print(count,end='')
         count = count + 1      
